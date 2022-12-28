@@ -1,0 +1,129 @@
+    @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,400;1,100&family=Raleway:ital,wght@0,200;1,200&display=swap');
+
+    * {
+        margin: 0;
+    }
+
+    body {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        font-size: 18px;
+        background-image: linear-gradient(90deg, #8BC6EC 0%, #9599E2 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name {
+        font-weight: bold;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .info {
+        font-size: 28;
+        margin-top: 0.2rem;
+        text-align: center;
+        font-weight:bold;
+    }
+
+    .github-photo {
+        width: 10rem;
+        margin: 1rem auto 0;
+        position: relative;
+    }
+
+    .git-hub-photo span {
+        position: absolute;
+        top: -15px;
+        z-index: 1;
+    }
+
+    .github-photo>img {
+        width: 10rem;
+        height: 11.5rem;
+        object-fit: cover;
+        /* https://bennettfeely.com/clippy/ */
+        clip-path: circle(45% at 50% 50%);
+
+    }
+
+    .github-stats{
+        margin-left:2rem;
+    }
+    .github-stats img{
+        border:#4F94EF 2px solid;
+    }
+    .HabilidadesTitle{
+        font-weight: bold;
+        font-size: 28px;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .habilidades{
+        margin-top: 1rem;
+    }
+    .habilidades ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .habilidades ul li{
+        list-style: none;
+    }
+    .iconsize{
+        height: 30px;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+    .sociais ul {
+        position: relative;
+        padding: 5;
+        margin-top: 1rem;
+        display: flex;
+
+    }
+
+    .sociais ul li {
+        list-style: none;
+        margin: 0 5px;
+    }
+
+    .sociais ul li .fa {
+        font-size: 30px;
+        line-height: 50px;
+        -webkit-transition: 0.6;
+        transition: 0.6;
+        color: black;
+    }
+
+    .sociais ul li .fa:hover {
+        color: white;
+    }
+
+    .sociais ul li a {
+        position: relative;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        -webkit-box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .sociais ul li a:hover {
+        -webkit-transform: translate(0, -10px);
+        transform: translate(0, -10px);
+    }
+
+    .sociais ul li:nth-child(1) a:hover {
+        background-color: #080808;
+    }
+    .sociais ul li:nth-child(2) a:hover {
+        background-color: #0077b5;
+    }
